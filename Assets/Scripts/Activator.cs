@@ -24,22 +24,21 @@ public class Activator : MonoBehaviour
     {
         if (!isActivable)
         {
-            foreach (Recepters obj in toActivate)
-                        obj.DoSomething();
-                        
             collide.enabled = false; 
             render.sprite = deactiveSprite;
+            
+            foreach (Recepters obj in toActivate)
+                        obj.DoSomething();
         }
     }
     private void OnTriggerStay2D(Collider2D other)
     {
         if (isActivable && (_interact.WasPressedThisFrame() || _interact2.WasPressedThisFrame()))
         {
+            render.sprite = deactiveSprite;
+            
             foreach (Recepters obj in toActivate)
                 obj.DoSomething();
-                        
-            collide.enabled = false; 
-            render.sprite = deactiveSprite;
         }
     }
 }
