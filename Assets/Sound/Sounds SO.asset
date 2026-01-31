@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: SHOOT
-    volume: 1
+    volume: 0.6
     mixer: {fileID: 0}
     sounds:
     - {fileID: 8300000, guid: 16c088feaa1d51a47be08ac2b410c046, type: 3}

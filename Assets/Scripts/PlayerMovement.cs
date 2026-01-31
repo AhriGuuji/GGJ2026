@@ -25,6 +25,7 @@ public class PlayerMovement : Character
 
     [Header("Settings")]
     [SerializeField] private Collider2D playerCollider;
+    [SerializeField] private Animator playerAnimator;
     public bool CanJump { get; set; }
     private float _lastGroundedTime;
     private float _lastJumpTime;
@@ -58,20 +59,22 @@ public class PlayerMovement : Character
         ComputeGroundState();
 
         #region Timer and Resets
-        _lastGroundedTime += Time.deltaTime;
-        _lastJumpTime += Time.deltaTime;
+        _lastGroundedTime -= Time.deltaTime;
+        _lastJumpTime -= Time.deltaTime;
 
         if (rb.linearVelocityY == 0) _isJumping = false;
         #endregion
 
         base.Update();
+        
+        playerAnimator.SetFloat("VelocityX", Mathf.Abs(rb.linearVelocityX));
     }
 
     protected override void FixedUpdate()
     {
         #region Jump
         // Handle jump cooldown and jump execution
-        if (_lastGroundedTime > 0 && _lastJumpTime > 0 && !_isJumping && _jumpAction.WasPressedThisFrame() && CanJump)
+        if (_lastGroundedTime > 0 && !_isJumping && _jumpAction.WasPressedThisFrame() && CanJump)
         {
             Jump();
             SoundManager.PlaySound(SoundType.JUMP);
