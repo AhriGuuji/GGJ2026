@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 0e799905011c4af46af869e60b57d33e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7385598256496284962
+    second: fogodesaparece5_0
+  - first:
+      213: 5852429231595113952
+    second: fogodesaparece5_1
+  - first:
+      213: -5528925934057084918
+    second: fogodesaparece5_2
+  - first:
+      213: 9089707489317091926
+    second: fogodesaparece5_3
+  - first:
+      213: 8999368654303581968
+    second: fogodesaparece5_4
+  - first:
+      213: 4566741727738781804
+    second: fogodesaparece5_5
+  - first:
+      213: 1446162531141975076
+    second: fogodesaparece5_6
+  - first:
+      213: -862831214326157536
+    second: fogodesaparece5_7
+  - first:
+      213: -4525566234780673581
+    second: fogodesaparece5_8
+  - first:
+      213: -1795923688891749483
+    second: fogodesaparece5_9
+  - first:
+      213: 2291263866084759985
+    second: fogodesaparece5_10
+  - first:
+      213: 4588588188973357400
+    second: fogodesaparece5_11
+  - first:
+      213: -8093731722606809571
+    second: fogodesaparece5_12
+  - first:
+      213: 414228007056598991
+    second: fogodesaparece5_13
+  - first:
+      213: 6315844028905505366
+    second: fogodesaparece5_14
+  - first:
+      213: 5909253691869073439
+    second: fogodesaparece5_15
+  - first:
+      213: 5120109610863313618
+    second: fogodesaparece5_16
+  - first:
+      213: -7270975686059375251
+    second: fogodesaparece5_17
+  - first:
+      213: -7192191423554945669
+    second: fogodesaparece5_18
+  - first:
+      213: -9009035788024279301
+    second: fogodesaparece5_19
+  - first:
+      213: -2622536612306456189
+    second: fogodesaparece5_20
+  - first:
+      213: -597444018306941983
+    second: fogodesaparece5_21
+  - first:
+      213: 6757881920627681789
+    second: fogodesaparece5_22
+  - first:
+      213: -2494190734771650550
+    second: fogodesaparece5_23
+  - first:
+      213: 2814353274425411662
+    second: fogodesaparece5_24
+  - first:
+      213: -3482271736623248555
+    second: fogodesaparece5_25
+  - first:
+      213: -4467149670276054389
+    second: fogodesaparece5_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 104
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fogodesaparece5_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 349
+        width: 105
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda6bcb2485118990800000000000000
+      internalID: -7385598256496284962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 340
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edc65ee061083150800000000000000
+      internalID: 5852429231595113952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 325
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08251f082f4543b0800000000000000
+      internalID: -5528925934057084918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 318
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65af3fc5dc0252e70800000000000000
+      internalID: 9089707489317091926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 308
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017dc824c1e24ec70800000000000000
+      internalID: 8999368654303581968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 275
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60e2ded763506f30800000000000000
+      internalID: 4566741727738781804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 316
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c7234f82dc11410800000000000000
+      internalID: 1446162531141975076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 309
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f68f0059b9604f0800000000000000
+      internalID: -862831214326157536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 267
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d95568ac75f131c0800000000000000
+      internalID: -4525566234780673581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 279
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59be5ef8be89317e0800000000000000
+      internalID: -1795923688891749483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 267
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b99ba8b8543ccf10800000000000000
+      internalID: 2291263866084759985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 238
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8595f4085a0fdaf30800000000000000
+      internalID: 4588588188973357400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 237
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ee5b671e94daf80800000000000000
+      internalID: -8093731722606809571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 254
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc760a08d22afb500800000000000000
+      internalID: 414228007056598991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6524fa77ea266a750800000000000000
+      internalID: 6315844028905505366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 242
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1095879ce2e10250800000000000000
+      internalID: 5909253691869073439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 201
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2429640984e0740800000000000000
+      internalID: 5120109610863313618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 228
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65cde5032e481b90800000000000000
+      internalID: -7270975686059375251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 221
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d75629104303c90800000000000000
+      internalID: -7192191423554945669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 211
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe0806cea979f280800000000000000
+      internalID: -9009035788024279301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 212
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381740d88d0ea9bd0800000000000000
+      internalID: -2622536612306456189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 194
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebf1aba4d375b7f0800000000000000
+      internalID: -597444018306941983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 198
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df92c015dc1d8cd50800000000000000
+      internalID: 6757881920627681789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 204
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a008dd3ddbad26dd0800000000000000
+      internalID: -2494190734771650550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 180
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48859a54679e0720800000000000000
+      internalID: 2814353274425411662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 163
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b403f2e4c7cafc0800000000000000
+      internalID: -3482271736623248555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece5_26
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 184
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8241b8fa0f7102c0800000000000000
+      internalID: -4467149670276054389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fogodesaparece5_0: -7385598256496284962
+      fogodesaparece5_1: 5852429231595113952
+      fogodesaparece5_10: 2291263866084759985
+      fogodesaparece5_11: 4588588188973357400
+      fogodesaparece5_12: -8093731722606809571
+      fogodesaparece5_13: 414228007056598991
+      fogodesaparece5_14: 6315844028905505366
+      fogodesaparece5_15: 5909253691869073439
+      fogodesaparece5_16: 5120109610863313618
+      fogodesaparece5_17: -7270975686059375251
+      fogodesaparece5_18: -7192191423554945669
+      fogodesaparece5_19: -9009035788024279301
+      fogodesaparece5_2: -5528925934057084918
+      fogodesaparece5_20: -2622536612306456189
+      fogodesaparece5_21: -597444018306941983
+      fogodesaparece5_22: 6757881920627681789
+      fogodesaparece5_23: -2494190734771650550
+      fogodesaparece5_24: 2814353274425411662
+      fogodesaparece5_25: -3482271736623248555
+      fogodesaparece5_26: -4467149670276054389
+      fogodesaparece5_3: 9089707489317091926
+      fogodesaparece5_4: 8999368654303581968
+      fogodesaparece5_5: 4566741727738781804
+      fogodesaparece5_6: 1446162531141975076
+      fogodesaparece5_7: -862831214326157536
+      fogodesaparece5_8: -4525566234780673581
+      fogodesaparece5_9: -1795923688891749483
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

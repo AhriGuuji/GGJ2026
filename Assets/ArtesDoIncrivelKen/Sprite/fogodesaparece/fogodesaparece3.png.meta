@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 8f58452325349ff428a07e9157d56aa6
+guid: fbf0e3c602200cc42af38ef12f7d86e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4873970241468103833
-    second: headbutt9_0
+      213: 6437030194804163760
+    second: fogodesaparece3_0
+  - first:
+      213: -272456483897089811
+    second: fogodesaparece3_1
+  - first:
+      213: -8288025738498440273
+    second: fogodesaparece3_2
+  - first:
+      213: 8967663658644996014
+    second: fogodesaparece3_3
+  - first:
+      213: -8739723340022904167
+    second: fogodesaparece3_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: headbutt9_0
+      name: fogodesaparece3_0
       rect:
         serializedVersion: 2
-        x: 565
-        y: 0
-        width: 602
-        height: 573
+        x: 101
+        y: 149
+        width: 119
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 763087783ed2c5cb0800000000000000
-      internalID: -4873970241468103833
+      spriteID: 0b404c97bdce45950800000000000000
+      internalID: 6437030194804163760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece3_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 191
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0ef8c754a083cf0800000000000000
+      internalID: -272456483897089811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece3_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 163
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3818fa0840bfc80800000000000000
+      internalID: -8288025738498440273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece3_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 161
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaff6b6b59a837c70800000000000000
+      internalID: 8967663658644996014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogodesaparece3_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 161
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a8eb26de346b680800000000000000
+      internalID: -8739723340022904167
       vertices: []
       indices: 
       edges: []
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      headbutt9_0: -4873970241468103833
+      fogodesaparece3_0: 6437030194804163760
+      fogodesaparece3_1: -272456483897089811
+      fogodesaparece3_2: -8288025738498440273
+      fogodesaparece3_3: 8967663658644996014
+      fogodesaparece3_4: -8739723340022904167
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
