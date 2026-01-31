@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using SmallHedge.SoundManager;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -42,6 +43,7 @@ public class PlayerMovement : Character
         base.Start();
 
         _gravityScale = rb.gravityScale;
+        CanJump = true;
 
         _moveAction = InputSystem.actions.FindAction(moveInput);
         _jumpAction = InputSystem.actions.FindAction(jumpInput);
@@ -72,6 +74,7 @@ public class PlayerMovement : Character
         if (_lastGroundedTime > 0 && _lastJumpTime > 0 && !_isJumping && _jumpAction.WasPressedThisFrame() && CanJump)
         {
             Jump();
+            SoundManager.PlaySound(SoundType.JUMP);
         }
 
         // Handle gravity scaling
@@ -124,7 +127,7 @@ public class PlayerMovement : Character
         _lastJumpTime = 0;
     }
 
-    protected override float GetDirection()
+    public override float GetDirection()
     {
         return playerDir.x;
     }

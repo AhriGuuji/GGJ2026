@@ -80,5 +80,5 @@ public abstract class Character : MonoBehaviour
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
 
-    protected abstract float GetDirection();
+    public abstract float GetDirection();
 }

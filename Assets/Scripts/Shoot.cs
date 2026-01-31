@@ -1,3 +1,4 @@
+using SmallHedge.SoundManager;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,29 +9,43 @@ public class Shoot : MonoBehaviour
     [SerializeField] private Transform shootPoint;
     [SerializeField] private float projectileForce;
     [SerializeField] private float forceMultiplier;
+    [SerializeField] private float shootCountdown = 1.0f;
+    public bool CanShoot { get; set; }
     private InputAction _shoot;
+    private PlayerMovement _player;
+    private float _timer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _shoot = InputSystem.actions.FindAction(shoot);
+        _player = GetComponent<PlayerMovement>();
+        CanShoot = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(_shoot.WasPressedThisFrame()) OnShoot();
+        if (_shoot.WasPressedThisFrame() && CanShoot && _timer > shootCountdown)
+        {
+            OnShoot();
+            SoundManager.PlaySound(SoundType.SHOOT);
+        }
+        
+        _timer += Time.deltaTime;
     }
 
-    public void OnShoot()
+    private void OnShoot()
     {
-        Vector2 direction = projectile.transform.right;
+        float direction = _player.transform.right.x;
         
-        GameObject bullet = Instantiate(projectile, shootPoint);
+        GameObject bullet = Instantiate(projectile, shootPoint.position,  Quaternion.identity);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
         float force = projectileForce * forceMultiplier;
-        rb.AddForce(direction * force, ForceMode2D.Impulse);
+        rb.AddForce(Vector2.right * (direction * force), ForceMode2D.Impulse);
+        
+        _timer = 0.0f;
     }
 
     private void OnDrawGizmos()
