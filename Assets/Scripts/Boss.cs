@@ -12,7 +12,9 @@ public class Boss : MonoBehaviour
     [SerializeField] private int maxHealth = 5;
     [SerializeField] private Collider2D mainCollider;
     private bool _isAlive;  
+    public bool IsAlive => _isAlive;
     [SerializeField] private string endScene;
+    [SerializeField] private Animator anim;
     
     private void Start()
     {
@@ -42,6 +44,7 @@ public class Boss : MonoBehaviour
     {
         mainCollider.enabled = false;
         
+        anim.SetTrigger("Damaged");
         yield return new WaitForSeconds(1.0f);
         
         mainCollider.enabled = true;
@@ -57,17 +60,8 @@ public class Boss : MonoBehaviour
             _isAlive = false;
             //PLAY DEATH ANIMATION
             
-            StartCoroutine(ChangeScene());
-            
             gameObject.SetActive(false);
         }
-    }
-
-    private IEnumerator ChangeScene()
-    {
-        yield return new WaitForSeconds(2.0f);
-        
-        SceneManager.LoadScene(endScene);
     }
     
     private void OnTriggerEnter2D(Collider2D collision)
