@@ -74,7 +74,7 @@ public class PlayerMovement : Character
     {
         #region Jump
         // Handle jump cooldown and jump execution
-        if (_lastGroundedTime > 0 && !_isJumping && _jumpAction.WasPressedThisFrame() && CanJump)
+        if (isGrounded && _jumpAction.WasPressedThisFrame() && CanJump)
         {
             Jump();
             SoundManager.PlaySound(SoundType.JUMP);
