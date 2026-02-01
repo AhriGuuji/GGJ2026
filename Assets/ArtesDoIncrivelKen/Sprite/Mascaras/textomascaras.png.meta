@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: b3879750651124b41bbcd68bd36b81d8
+guid: 26896b1d79c0c9d499d1df5df1125e18
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 706188790626586724
-    second: menusugidade_0
-  - first:
-      213: -2808233010755665223
-    second: menusugidade_1
+      213: -7424073475322759420
+    second: textomascaras_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menusugidade_0
+      name: textomascaras_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 274
+        y: 257
+        width: 1090
+        height: 1737
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46019a9a6f2ecc900800000000000000
-      internalID: 706188790626586724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: menusugidade_1
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b2026394f62709d0800000000000000
-      internalID: -2808233010755665223
+      spriteID: 407bcf4328468f890800000000000000
+      internalID: -7424073475322759420
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      menusugidade_0: 706188790626586724
-      menusugidade_1: -2808233010755665223
+      textomascaras_0: -7424073475322759420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
