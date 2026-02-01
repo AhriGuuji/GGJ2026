@@ -9,6 +9,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private Vector2 cooldownBreak;
     private int _health;
     [SerializeField] private int maxHealth = 5;
+    [SerializeField] private Collider2D mainCollider;
     private bool _isAlive;  
     
     private void Start()
@@ -33,9 +34,20 @@ public class Boss : MonoBehaviour
         }
     }
 
+    private IEnumerator Imunity()
+    {
+        mainCollider.enabled = false;
+        
+        yield return new WaitForSeconds(1.0f);
+        
+        mainCollider.enabled = true;
+    }
+
     private void TakeDamage()
     {
         _health -= 1;
+        StartCoroutine(Imunity());
+        
         if (_health <= 0)
         {
             _isAlive = false;
@@ -45,8 +57,9 @@ public class Boss : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        other.gameObject.SetActive(false);
+        if (collision.transform.TryGetComponent(out Projectile bullet))
+            TakeDamage();
     }
 }

@@ -797,33 +797,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.7181954, y: 0.69243014}
   m_EdgeRadius: 0
---- !u!1 &337319022 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4555729972844817240, guid: c200af75295fcc149a0921af1d3d873e, type: 3}
-  m_PrefabInstance: {fileID: 1890324095}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &337319030
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337319022}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: af0069eef3cbfd147a6584212b599b12, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &394362930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3321,14 +3294,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6620998433392079152, guid: c200af75295fcc149a0921af1d3d873e, type: 3}
-      propertyPath: jumpForce
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6620998433392079152, guid: c200af75295fcc149a0921af1d3d873e, type: 3}
-      propertyPath: playerAnimator
-      value: 
-      objectReference: {fileID: 337319030}
     - target: {fileID: 7405148169133435267, guid: c200af75295fcc149a0921af1d3d873e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.93
@@ -3372,10 +3337,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4555729972844817240, guid: c200af75295fcc149a0921af1d3d873e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 337319030}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c200af75295fcc149a0921af1d3d873e, type: 3}
 --- !u!1 &1941676762
 GameObject:
