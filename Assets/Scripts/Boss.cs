@@ -57,9 +57,9 @@ public class Boss : MonoBehaviour
             _isAlive = false;
             //PLAY DEATH ANIMATION
             
-            gameObject.SetActive(false);
-
             StartCoroutine(ChangeScene());
+            
+            gameObject.SetActive(false);
         }
     }
 
