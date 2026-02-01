@@ -897,6 +897,7 @@ MonoBehaviour:
   cooldownBreak: {x: 3, y: 5}
   maxHealth: 5
   mainCollider: {fileID: 1133010896}
+  endScene: EndScene
 --- !u!212 &1133010892
 SpriteRenderer:
   m_ObjectHideFlags: 0

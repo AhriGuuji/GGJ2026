@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class Boss : MonoBehaviour
@@ -11,6 +12,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private int maxHealth = 5;
     [SerializeField] private Collider2D mainCollider;
     private bool _isAlive;  
+    [SerializeField] private string endScene;
     
     private void Start()
     {
@@ -56,9 +58,18 @@ public class Boss : MonoBehaviour
             //PLAY DEATH ANIMATION
             
             gameObject.SetActive(false);
+
+            StartCoroutine(ChangeScene());
         }
     }
 
+    private IEnumerator ChangeScene()
+    {
+        yield return new WaitForSeconds(2.0f);
+        
+        SceneManager.LoadScene(endScene);
+    }
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.TryGetComponent(out Projectile bullet))
