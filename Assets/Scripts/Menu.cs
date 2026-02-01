@@ -14,7 +14,6 @@ public class Menu : MonoBehaviour
 
     private void Start()
     {
-        Cursor.visible = false;
         ExitExitMenu();
     }
 
