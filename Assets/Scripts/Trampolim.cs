@@ -20,7 +20,6 @@ public class Trampolim : Recepters
 
     public override void DoSomething()
     {
-        Debug.Log("Trampolim Started");
         StartCoroutine(Moving(endPos.position));
     }
     
@@ -55,6 +54,5 @@ public class Trampolim : Recepters
         }
         
         button.enabled = true;
-        Debug.Log("Trampolim Ended");
     }
 }

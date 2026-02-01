@@ -3,12 +3,10 @@ using UnityEngine.InputSystem;
 
 public class Mask : MonoBehaviour
 {
-    [SerializeField] private Sprite playerSpriteNoMask;
-    [SerializeField] private Sprite playerSpriteWithMask;
     [SerializeField] private string input = "PutMask";
+    [SerializeField] private GameObject mask;
     public bool HasMask { get; private set; }
     private InputAction _putMask;
-    private SpriteRenderer _playerSprite;
     private PlayerMovement _playerMovement;
     private Shoot _playerShoot;
     
@@ -17,7 +15,6 @@ public class Mask : MonoBehaviour
     {
         HasMask = false;
         _putMask = InputSystem.actions.FindAction(input);
-        _playerSprite = GetComponent<SpriteRenderer>();
         _playerMovement = GetComponent<PlayerMovement>();
         _playerShoot = GetComponent<Shoot>();
     }
@@ -30,14 +27,14 @@ public class Mask : MonoBehaviour
             HasMask = false;
             _playerMovement.CanJump = true;
             _playerShoot.CanShoot = false;
-            _playerSprite.sprite = playerSpriteNoMask;
+            mask.SetActive(false);
         }
         else if (!HasMask && _putMask.WasPressedThisFrame())
         {
             HasMask = true;
             _playerMovement.CanJump = false;
             _playerShoot.CanShoot = true;
-            _playerSprite.sprite = playerSpriteWithMask;
+            mask.SetActive(true);
         }
     }
 }
