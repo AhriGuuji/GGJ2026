@@ -897,7 +897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 965ba5fe517bb80468d6d60514b5dc46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameScene: MainGameScene
+  gameScene: Previous
   startMenu: {fileID: 1220218593}
   exitMenu: {fileID: 19228100}
   settingsMenu: {fileID: 486752210}
