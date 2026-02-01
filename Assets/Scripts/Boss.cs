@@ -22,6 +22,8 @@ public class Boss : MonoBehaviour
 
     private IEnumerator AttackAction()
     {
+        yield return new WaitForSeconds(5.0f);
+        
         while (true)
         {
             if (!_isAlive) yield break;
